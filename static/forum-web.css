@@ -1,0 +1,8 @@
+/* Additions for the static (Supabase) forum only, on top of static/wiki/wiki.css and static/forum.css (both copies,
+   kept identical to the wiki's and the Python forum's).
+   The header's corner leaves (.leaves.r) reach 84px past the right edge at desktop widths and would give every page
+   a sideways scroll; clip them at the window's edge (they still hang down over the page, as in the mockups). */
+.forum .top { overflow-x: clip; }
+
+/* Long words (addresses, codes) wrap on small phones instead of spilling off the screen (2026-09-27). */
+code { overflow-wrap: anywhere; }

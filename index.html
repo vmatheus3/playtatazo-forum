@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- scripts/build-forum.sh writes the exact Supabase address into connect-src; .htaccess sends the same policy as a header, with frame-ancestors. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://mkujjikxtsaydncvsfeh.supabase.co; form-action 'none'; base-uri 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#173A8C">
+<title>TATAZO Forum</title>
+<link rel="preload" href="static/wiki/fonts/merriweather.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="static/wiki/wiki.css">
+<link rel="stylesheet" href="static/forum.css">
+<link rel="stylesheet" href="static/forum-web.css">
+<script type="module" src="src/main.js"></script>
+</head>
+<body class="forum pg-lost">
+<main id="main"><div class="panel lost"><span class="lost-compass" aria-hidden="true"></span><h1>TATAZO Forum</h1>
+<p class="lost-line">Opening the forum…</p>
+<noscript><p>The forum needs JavaScript switched on. The <a href="/wiki/">wiki</a> works without it.</p></noscript></div></main>
+</body>
+</html>
