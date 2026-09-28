@@ -947,8 +947,10 @@ img.tale-pic { float: right; width: 220px; height: auto; margin: 0 0 10px 18px; 
   body > main { padding: 16px 16px 26px; }
   body > main::before { content: ""; display: block; height: 12px; margin: -16px -16px 8px; background: url(img/dia.svg) left 6px top 0 / 10px 10px no-repeat, url(img/dia.svg) right 6px top 0 / 10px 10px no-repeat; }
   .pg-home > main::before { display: none; }
-  .hero { min-height: 0; padding: 18px 12px 24px; }
-  .hero h1 img { width: 300px; }
+  /* Phones (owner, 2026-09-27): the header already shows the logo, so the hero drops its copy (kept for screen
+     readers) and slides the picture right to show the gator, with the slogan and search at the bottom. */
+  .hero { min-height: 340px; padding: 18px 12px 24px; justify-content: flex-end; background-position: 11% 45%; }
+  .hero h1 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .hero .slogan { font-size: 22px; }
   .hero .slogan::before, .hero .slogan::after { width: 40px; }
   .hsearch input { height: 50px; font-size: 16px; padding-left: 54px; }
