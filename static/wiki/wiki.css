@@ -1190,7 +1190,7 @@ figure.apic img.shot { max-height: 400px; }
 .side-more a { text-decoration: none; }
 .side-more a::after { content: " ›"; }
 .side .guiderow { padding: 8px 12px; gap: 14px; }
-.side .guiderow svg.ic, .side .guiderow img.cr, .side .guiderow svg.cr { width: 44px; height: 44px; flex: none; }
+.side .guiderow svg.ic, .side .guiderow img.ic, .side .guiderow img.cr, .side .guiderow svg.cr { width: 44px; height: 44px; flex: none; }
 .side .guiderow .gem { width: 20px; height: 20px; margin: 0 4px; }
 .side .guiderow small { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
@@ -1258,7 +1258,7 @@ table.qtable td { vertical-align: middle; }
 .hubpanel > h2 { font-size: 28px; margin: 2px 0 10px; }
 .hubrows { gap: 6px; }
 .hubrows a { min-height: 60px; padding: 6px 16px; }
-.hubrows svg.gi { width: 40px; height: 40px; flex: none; }
+.hubrows svg.gi, .hubrows img.gi { width: 40px; height: 40px; flex: none; object-fit: contain; }
 .hubrows .t b { font-size: 16.5px; }
 .hubrows .t small { font-size: 13.5px; }
 .tcard .ccard-body { grid-template-columns: 1fr; }
