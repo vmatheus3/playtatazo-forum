@@ -853,6 +853,10 @@ td.abcell b { white-space: nowrap; }
 img.emblem { width: 56px; height: 56px; object-fit: contain; vertical-align: middle; }
 h1 img.emblem { width: 72px; height: 72px; margin-right: 12px; }
 figure.shot-fig { margin: 0 0 22px; }
+.alpha-downloads { display: flex; flex-wrap: wrap; gap: 12px; margin: 18px 0; }
+.alpha-downloads .btn { white-space: normal; text-align: center; }
+figure.guide-shot { margin-top: 20px; }
+figure.guide-shot img.shot { max-height: none; object-fit: contain; }
 img.shot {
   display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; object-position: center 55%;
   border: 3px solid transparent; border-radius: 12px;
