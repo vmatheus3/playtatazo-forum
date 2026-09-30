@@ -857,6 +857,8 @@ figure.shot-fig { margin: 0 0 22px; }
 .alpha-downloads .btn { white-space: normal; text-align: center; }
 figure.guide-shot { margin-top: 20px; }
 figure.guide-shot img.shot { max-height: none; object-fit: contain; }
+/* Release-note evidence belongs to the preceding list item, never beside or below the next note. */
+.apanel li > figure.guide-shot { clear: both; display: block; }
 img.shot {
   display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; object-position: center 55%;
   border: 3px solid transparent; border-radius: 12px;
